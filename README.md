@@ -11,6 +11,7 @@ If the parameter is a number, the script must output an invalid input message.
 ## Part 2. System research
 This script is run without parameters
 
+```
 **HOSTNAME** = _network name_  
 **TIMEZONE** = _time zone as: **America/New_York UTC -5** (time zone must be taken from the system and be correct for the current location)_  
 **USER** = _current user who ran the script_  
@@ -27,6 +28,7 @@ This script is run without parameters
 **SPACE_ROOT** = _root partition size in MB, with an accuracy of two decimal places, as **254.25 MB**_  
 **SPACE_ROOT_USED** = _size of used space of the root partition in MB, with an accuracy of two decimal places_  
 **SPACE_ROOT_FREE** = _size of free space of the root partition in MB, with an accuracy of two decimal places_
+```
 
 ## Part 3. Visual output design for the system research script
 The script is run with 4 parameters. The parameters are numeric. From 1 to 6, for example:  
